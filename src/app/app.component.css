@@ -1,0 +1,122 @@
+*{
+    background-color: white;
+    box-sizing: border-box;
+    /* padding-left:5px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#navbar{
+	height:60px;
+	background-color:#0883E0;
+}
+#logo{
+	color:#EDF3F8;
+	font-size:20px
+}
+#mediclaim{
+    font-size: 200%;
+}
+#life{
+    font-size:200%;
+}
+#dental{
+    font-size: 200%;
+}
+#Property{
+    font-size: 200%;
+}
+a{
+	background-color:#0883E0;
+	color:black;
+	margin-right:61px;
+	margin-left:5px;
+}
+
+h1{
+    margin-left:34%;
+    padding-top: 3%;
+    font-size: 300%;
+}
+h3{
+    
+    margin-left:34%;
+    padding-top: 3%;
+    font-size: 200%;
+    
+}
+#quote1{
+    font-size: 150%;
+    margin-left:27%;
+}
+body{
+    display:flex;
+    gap:10px;
+    padding-top:20px;
+    align:block;
+}
+#fullBox{
+    display:flex;
+align:block;
+gap:10px;
+}
+.card{
+    background-color: white;
+    width:290px;
+    padding:10px 10px;
+    border-radius: 5px;
+    line-height: 1.8;
+
+}
+#ch1{
+    background-color: white;
+    display:none;
+}
+
+#ch1:checked ~ .content{
+    display:block;
+}
+#ch1:checked ~ label{
+    display:none;
+}
+#ch2{
+    display:none;
+}
+
+#ch2:checked ~ .content{
+    display:block;
+}
+#ch2:checked ~ label{
+    display:none;
+}
+#ch3{
+    display:none;
+}
+
+#ch3:checked ~ .content{
+    display:block;
+}
+#ch3:checked ~ label{
+    display:none;
+}
+#ch4{
+    background-color: white;
+    display:none;
+}
+
+#ch4:checked ~ .content{
+    display:block;
+}
+#ch4:checked ~ label{
+    display:none;
+}
+.content{
+    display:none;
+}
+label{
+    display: inline-block;
+    cursor: pointer;
+    color:#fff;
+    background-color: green;
+    padding: 3px 13px;
+    border-radius: 5px;
+    margin-top : 12px;
+}

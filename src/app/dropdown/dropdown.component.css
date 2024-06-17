@@ -1,0 +1,36 @@
+#city1{
+    margin-left:32%; 
+}
+#branch1{
+    margin-left:3%;
+}
+#dateRange1{
+    margin-left:31%;
+}
+#dateRange2{
+    margin-left:5%;
+}
+#whole1{
+    padding-top: 3%;
+    display:flex;
+align:block;
+gap:100px;
+}
+#whole2{
+    padding-top:1%;
+    display:flex;
+align:block;
+gap:100px;
+}
+#city2{
+    font-size: 120%;
+}
+#branch2{
+    font-size: 120%;
+}
+#dateRange12{
+    font-size: 120%;
+}
+#dateRange22{
+    font-size: 120%;
+}

@@ -1,0 +1,36 @@
+<div id="whole1">
+<div id="city1">
+    <label for="city" id="city2">City : </label>
+    <select id="city" (change)="emitCity($event)">
+        <option value="California">California</option>
+        <option value="New York">New York</option>
+        <option value="Washington D.C.">Washington D.C.</option>
+    </select>
+</div>
+<div id="branch1">
+    <label for="branch" id="branch2">Branch : </label>
+    <select id="branch" (change)="emitCity($event)">
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="San Francisco">San Francisco</option>
+        <option value="San Diego">San Diego</option>
+        <option value="Manhattan">Manhattan</option>
+        <option value="Brooklyn">Brooklyn</option>
+        <option value="Queens">Queens</option>
+        <option value="George Town">George Town</option>
+        <option value="Shaw">Shaw</option>
+        <option value="Penn Quarter">Penn Quarter</option>
+    </select>
+</div>
+</div>
+<div id="whole2">
+<div id="dateRange1">
+    <label for="dateRange" id="dateRange12">From : </label>
+    <input type="date" id="dateRange" (change)="emitDateRange($event)">
+</div>
+
+<div id="dateRange2">
+    <label for="dateRange" id="dateRange22">To : </label>
+    <input type="date" id="dateRange" (change)="emitDateRange($event)">
+</div>
+</div>
+<app-selection></app-selection>
